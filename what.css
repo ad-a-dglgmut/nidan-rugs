@@ -1,0 +1,105 @@
+html
+{
+    scroll-behavior:smooth;
+}
+
+#head
+{
+    background-color: white;
+}
+.box
+{
+    height: 700px;
+}
+
+#nav
+{
+    background-color: #ed1c24;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: white;
+}
+#headimg
+{
+    padding-left: 10px;
+}
+#cardL
+{
+    float: left;
+    max-width: 1000px;
+    background-color: #ed1c24;
+}
+#cardR
+{
+    float:right;
+    max-width: 1000px;
+    background-color: black;
+    color: white;
+}
+#title 
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#textimg
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#title.main
+{
+    text-align: center;
+    font-size: 80px;
+}
+.navbox
+{
+    height: 105px;
+}
+.nav-item a
+{
+    font-size: x-large;
+}
+
+#navlogo
+{
+    padding-left: 10px;
+}
+.images
+{
+    text-align: center;
+}
+#bimg
+{
+    padding-top: 30px;
+}
+
+.placeholderbox
+{
+    height:100px;
+    background-color: aliceblue;
+}
+.clearbox
+{
+    height: 100px;
+}
+
+.viewtemplate
+{
+    height: 500px;
+    background-color: aliceblue;
+}
+.black
+{
+    padding-top: 15px;
+    color: black;
+}
+#foot
+{
+    background-color: #ed1c24;
+    height: 200px;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="what.css">
+        <title>Nidan rugs</title>
+        <link rel="icon" href="images/nidanmalenko.png" type="image/x-icon" />
+    </head>
+    <body>
+        <script src="js/jquery-3.6.1.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+
+        <header class="header" id="head"> <!--header-->
+            <div class="row">
+                <div class="col">
+                    <div class="box" id="hbox"></div>
+                </div>     
+            </div>
+            <div class="row">
+                    <div class="col d-flex align-items-center justify-content-center" id="demo">
+                        <img src="images/nidan.png" alt=":(" id="headimg">
+                    </div>
+            </div>
+        </header>
+        <div class="navbar navbar-expand-sm sticky-top navbar-dark py-2" id="nav"> <!--navbar-->
+                <a class="navbar-brand" href="#"><img src="images/nidanobratno.png" alt=":(" id="navlogo"></a>
+                  <ul class="navbar-nav">
+                    <li class="nav-item"> 
+                        <a href="javascript:cataloguelink()" class="nav-link"><p class="black">Каталог</p></a>
+                    </li>
+                    <li class="nav-item"> 
+                      <a href="javascript:shoplink()" class="nav-link"><p class="black">Продавница</p></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="javascript:aboutuslink()" class="nav-link"><p class="black">За Нас</p></a>
+                    </li>
+                </ul> 
+                
+                 
+            
+        </div>
+        <div class="container" id="catalogue"> <!--catalogue-->
+          <div class="row" id="Cbox">
+            <div class="col">
+              <div class="navbox"></div>
+            </div>
+          </div>
+          <h1 class="main" id="title">Каталог</h1>
+          <div class="images">
+            <div class="row">
+              <div class="col"><img src="images/795.png" alt=":("></div>
+              <div class="col"><img src="images/795.png" alt=":("></div>
+              <div class="col"><img src="images/795.png" alt=":("></div>
+            </div>
+            <div class="row" id="bimg">
+              <div class="col"><img src="images/795.png" alt=":("></div>
+              <div class="col"><img src="images/795.png" alt=":("></div>
+              <div class="col"><img src="images/795.png" alt=":("></div>
+            </div>
+          </div>
+          <p id="bimg">Нашиот каталог е дизајниран да ви го олесни наоѓањето на совршениот тепих за вашиот дом, канцеларија или кој било друг простор.
+            Прелистајте низ нашата најактуелна колекција за да го најдете совршениот стил, боја и големина кои ќе одговараат на вашите потреби и преференции.
+            
+            Во Нидан, ние сме посветени на нашите клиенти да им обезбедиме производи со највисок квалитет кои се убави и одржливи. Нашиот каталог редовно се ажурира со нови пристигнувања, затоа погрижете се често да проверувате за да видите што е ново.
+            
+            Ние веруваме дека нашиот каталог не е само колекција на производи, туку одраз на нашите вредности и нашата мисија. Со секој купен килим, вие правите разлика и ги поддржувате нашите напори да создадеме поодржлив свет.
+            
+            Па зошто да чекате?
+             Прелистајте го нашиот каталог Нидан денес и откријте го совршениот тепих за вас!</p>
+        </div> 
+        <div class="container"> <!--shop-->
+          <div class="row" id="shopBox">
+            <div class="col">
+              <div class="navbox"></div>
+            </div>
+          </div>
+          <h1 class="main" id="title">Продавница</h1>
+          <div class="row">
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+          </div>
+          <div class="row" id="bimg">
+            <div class="col">
+              <div class="clearbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="placeholderbox"></div>
+            </div>
+            <div class="col">
+              <div class="clearbox"></div>
+            </div>
+          </div>
+          <div class="row" id="bimg">
+            <div class="col">
+              <div class="viewtemplate"></div>
+            </div>
+            <div class="col">
+              <div class="viewtemplate"></div>
+            </div>
+          </div>
+        </div> 
+        <div class="container" id="about_us"> <!--about us-->
+            <div class="row" id="ABtitle">
+                <div class="col">
+                    <div class="navbox"></div>
+                </div>
+            </div>
+            <h1 class="main" id="title">За Нас</h1>
+            <div class="navbox">
+              <p style="text-align: center;">Во Нидан, ние сме тим од посветени и страсни поединци кои работат на создавање подобар свет преку еколошки и одржливи производи.</p>
+            </div>
+            <div class="card mb-3" id="cardL">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/ilo.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Илија Катранџиев</h5>
+                      <p class="card-text">Запознајте го Илија, нашиот маркетинг агент и првиот член на тимот на Нидан. Илија е одговорен за креирање на привлечното лого и реклами кои ја доловуваат суштината на нашиот бренд. Тој е и талентираниот писател зад волшебните текстови кои помагаат да ги оживееме нашите производи.
+
+                        Илија не е само талентиран маркетинг агент, туку и креативен решавач на проблеми и вистински тимски играч. Тој носи уникатна енергија и поттик во тимот на Нидан, секогаш поместувајќи ги границите и доаѓа до нови и иновативни идеи за да му помогне на нашиот бренд да расте и да се развива.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="cardR">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/pavel.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Павел Божинов</h5>
+                      <p class="card-text">Запознајте го Павел, мајсторот зад веб-страницата на Нидан.
+                        Со своите исклучителни технички вештини и внимание на деталите, Павел ја оживеа нашата визија со дизајнирање и креирање на веб-локација која точно ја отсликува суштината на нашиот бренд.
+                        Тој, исто така, работи неуморно за одржување на веб-страницата, осигурувајќи дека нашите клиенти имаат беспрекорно и пријатно онлајн искуство.
+                        Павел е клучен дел од тимот на Нидан, кој работи зад сцената за да се осигура дека нашето онлајн присуство е силно и влијателно.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="cardL">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/npc1.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis impedit, molestiae deserunt rem porro distinctio, corporis non at quas ratione, dolorem laborum doloribus amet cumque rerum veniam minima voluptates incidunt in officia quae ipsum dolorum eveniet? Nesciunt consequuntur et doloribus distinctio a soluta ullam fuga blanditiis rerum enim laudantium molestiae ipsa sint tempore cupiditate autem iusto aliquam ipsam amet nobis architecto, aliquid numquam perferendis. Obcaecati consectetur excepturi, praesentium laborum molestias quaerat veniam ipsum velit doloremque tenetur quam, illo perferendis unde quibusdam a dolor aliquid. Voluptas, corporis accusamus repellendus eveniet nihil ratione animi et tempora. Consequatur, similique. Cum, voluptate vel.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="cardR">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/aaa.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ex nihil delectus? Repellat dicta officiis nihil, fugiat tempora, eos sed iusto nostrum nobis quibusdam amet aliquid autem animi nisi impedit molestias! Expedita laudantium ipsum consectetur ipsa impedit. Quas quasi assumenda neque architecto reiciendis, nisi, officia magnam eos odio sapiente molestias minima quae incidunt consequuntur porro quaerat aut! Quis, dolores consectetur aperiam amet delectus iusto necessitatibus possimus similique non hic dolorum iure ratione quibusdam sequi corporis illum. Quae, eligendi libero! Dolorem dolor veniam recusandae eligendi quisquam accusamus animi aperiam maiores numquam pariatur quod ipsam, inventore quos. Quidem nulla deleniti ut soluta.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="cardL">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/images/bbb.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ex nihil delectus? Repellat dicta officiis nihil, fugiat tempora, eos sed iusto nostrum nobis quibusdam amet aliquid autem animi nisi impedit molestias! Expedita laudantium ipsum consectetur ipsa impedit. Quas quasi assumenda neque architecto reiciendis, nisi, officia magnam eos odio sapiente molestias minima quae incidunt consequuntur porro quaerat aut! Quis, dolores consectetur aperiam amet delectus iusto necessitatibus possimus similique non hic dolorum iure ratione quibusdam sequi corporis illum. Quae, eligendi libero! Dolorem dolor veniam recusandae eligendi quisquam accusamus animi aperiam maiores numquam pariatur quod ipsam, inventore quos. Quidem nulla deleniti ut soluta.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="box"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <h1 id="title">Нашата Приказна</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  Нидан е компанија која е страсна за одржливост и намалување на отпадот. Нашата цел е да обезбедиме висококвалитетни, еколошки теписи кои не само што изгледаат одлично, туку и имаат позитивно влијание врз животната средина.
+
+                  Ние веруваме дека малите промени можат да имаат големо влијание и затоа за наша мисија поставивме да ги собереме вишокот ткаенини од големите конфекции во нашиот град и да ги претвориме во убави и удобни теписи. Овие ткаенини инаку ќе одат во отпад, што дополнително ќе го загади нашиот град. Подарувајќи им втор живот, помагаме да се намали отпадот и да придонесеме за почиста и зелена иднина.
+                </div>
+              </div>
+              <div class="row" id="textimg">
+                <div class="col">
+                    <img src="images/between-the-buried-and-me-btbam-colors-album-wallpaper-preview.jpg" alt=":(">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <p>Нашите теписи се рачно изработени со грижа и внимание до детал. Сметаме дека секој тепих треба да биде уникатен и да го одразува карактерот на личноста која ќе го користи. Затоа нудиме широк спектар на стилови, бои и дезени, за да можете да го изберете тепихот кој најдобро одговара на вашите потреби и вкус.
+
+                      Во Нидан, ние сме посветени да им обезбедиме на нашите клиенти најдобри можни производи и услуги, со што гарантираме задоволство на секој клиент. Ние веруваме дека одржливоста и квалитетот треба да одат рака под рака и се стремиме да им понудиме на нашите клиенти теписи кои се не само еколошки, туку и модерни и стилски.</p>
+                </div>
+              </div>
+        </div>
+        <div class="navbox"></div>
+        <footer class="footer" id="foot">
+          <div class="container">
+            <h3 style="padding-top: 15px; color:white">Контакт:</h3>
+            <a href="https://www.facebook.com/profile.php?id=100089888380240" target="_blank" style="margin:auto; padding-right: 15px; padding-bottom: 15px;"><img src="./images/icon-facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/nidanrugs/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img src="./images/icon-instagram.svg" alt=""></a>
+            <br>
+            <h5 style="color: white; padding-top: 15px;">nidanrugs@gmail.com</h5>
+          </div>
+        </footer>
+        <script src="js/ohgodihopethisworks.js"></script>
+    </body>
+</html>
